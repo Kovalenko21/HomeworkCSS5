@@ -1,0 +1,83 @@
+* {
+  transition: all 0.1s ease-in;
+}
+.text1 {
+  font-size: 14px;
+  margin-left: 870px;
+  margin-top: 100px;
+}
+.text2 {
+  color: #0ec8cb;
+  font-size: 50px;
+  margin-left: 700px;
+}
+.text3 {
+  margin-left: 680px;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+main {
+  width: 80%;
+  display: inline;
+  margin-top: 80px;
+}
+.part1 {
+  width: 15%;
+  margin-left: 250px;
+  margin-top: 80px;
+  background: white url("Icons/anchor.png") top no-repeat;
+}
+.part2 {
+  width: 15%;
+  margin-left: 50px;
+  margin-top: 80px;
+  background: white url("Icons/diamond.png") top no-repeat;
+}
+.part3 {
+  width: 15%;
+  margin-left: 50px;
+  margin-top: 100px;
+  background: white url("Icons/glasses.png") top no-repeat;
+}
+.part4 {
+  width: 15%;
+  margin-left: 50px;
+  margin-top: 80px;
+  background: white url("Icons/monitor.png") top no-repeat;
+}
+li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 0px;
+  text-align: center;
+  height: 400px;
+  padding-top: 80px;
+  background: white;
+}
+h6 {
+  font-weight: bold;
+}
+h3 {
+  font-weight: bolder;
+}
+li:hover {
+  background: #0ec8cb;
+  color: white;
+}
+.part1:hover {
+  background: #0ec8cb url("Icons/anchor1.png") top no-repeat;
+  color: white;
+}
+.part2:hover {
+  background: #0ec8cb url("Icons/diamond1.png") top no-repeat;
+  color: white;
+}
+.part3:hover {
+  background: #0ec8cb url("Icons/glasses1.png") top no-repeat;
+  color: white;
+}
+.part4:hover {
+  background: #0ec8cb url("Icons/monitor1.png") top no-repeat;
+  color: white;
+}
